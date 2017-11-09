@@ -16,6 +16,7 @@ body{
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
 .header img{
   height: 50px;
@@ -27,5 +28,18 @@ body{
 .navigation span{
   text-decoration: underline;
   padding-left: 30px;
-
+}
+.main{
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  margin: 70px auto 0 auto;
+  align-items: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+.mission{
+  margin: auto;
+}
+h2{
+  text-align: center;
 }
