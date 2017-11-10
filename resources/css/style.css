@@ -39,7 +39,15 @@ body{
 }
 .mission{
   margin: auto;
+  background-color: black;
+  width: 1200px;
+  height: 90px;
 }
 h2{
   text-align: center;
+  margin: 10px 0px;
+}
+h4{
+  text-align: center;
+  margin: 10px 0px;
 }
