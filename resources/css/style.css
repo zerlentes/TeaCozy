@@ -51,3 +51,41 @@ h4{
   text-align: center;
   margin: 10px 0px;
 }
+.tea{
+  padding-top: 70px;
+}
+.images{
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.images img{
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+.berry{
+  display: flex;
+  flex-direction: column;
+}
+.rum{
+  display: flex;
+  flex-direction: column;
+}
+.donut{
+  display: flex;
+  flex-direction: column;
+}
+.myrtle{
+display: flex;
+flex-direction: column;
+}
+.bedford{
+  display: flex;
+  flex-direction: column;
+}
+.bottom{
+  display: flex;
+  justify-content: center;
+}
