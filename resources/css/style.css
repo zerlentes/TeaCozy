@@ -39,7 +39,7 @@ a{
   width: 1200px;
   margin: 70px auto 0 auto;
   align-items: center;
-  background-image: url(https://github.com/zerlentes/TeaCozy/blob/master/resources/photos/img-mission-background.jpg);
+  background-image: url("https://github.com/zerlentes/TeaCozy/blob/master/resources/photos/img-mission-background.jpg");
 }
 .mission{
   margin: auto;
