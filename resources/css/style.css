@@ -35,7 +35,7 @@ body{
   width: 1200px;
   margin: 70px auto 0 auto;
   align-items: center;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-image: url(C:/projects/TeaCozy/resources/photos/img-mission-background.jpg);
 }
 .mission{
   margin: auto;
@@ -88,4 +88,33 @@ flex-direction: column;
 .bottom{
   display: flex;
   justify-content: center;
+}
+.locations{
+  width: 1200px;
+  height: 500px;
+  background-image: url(C:/projects/TeaCozy/resources/photos/img-locations-background.jpg);
+  margin: 90px auto;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.locations h2{
+  padding-top: 60px;
+  margin-bottom: 15px;
+}
+.containers{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+.container{
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 40px;
 }
