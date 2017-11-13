@@ -5,6 +5,10 @@ body{
   background-color: black;
   opacity: 0.9;
 }
+a{
+  color: seashell;
+  text-decoration: underline;
+}
 .header{
   display: flex;
   flex-direction: row;
@@ -93,7 +97,7 @@ flex-direction: column;
   width: 1200px;
   height: 500px;
   background-image: url(C:/projects/TeaCozy/resources/photos/img-locations-background.jpg);
-  margin: 90px auto;
+  margin: 90px auto 10px;
   padding-bottom: 80px;
   display: flex;
   align-items: center;
@@ -117,4 +121,14 @@ flex-direction: column;
   flex-direction: column;
   align-items: center;
   margin-right: 40px;
+}
+.contact{
+  height: 200px;
+  text-align: center;
+}
+.contact h2{
+  padding-bottom: 10px;
+}
+.copy{
+  padding-left: 20px;
 }
